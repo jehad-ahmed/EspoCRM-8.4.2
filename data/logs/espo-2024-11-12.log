@@ -1,0 +1,1 @@
+[2024-11-12 09:21:14] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'custom\Espo\Modules\ManagerOfStore\Resources\metadata\clientDefs/Category.json'." at C:\MAMP\htdocs\EspoCRM-8.4.2\application\Espo\Core\Utils\File\Unifier.php line 240 :: C:\MAMP\htdocs\EspoCRM-8.4.2\application\Espo\Core\Utils\File\Unifier.php(240)

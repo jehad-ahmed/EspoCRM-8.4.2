@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "quantityRequired"
+                },
+                {
+                    "name": "salePrice"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "totalPrice"
+                }
+            ],
+            [
+                {
+                    "name": "purchasePrice"
+                },
+                {
+                    "name": "totalQuantity"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]
