@@ -9,7 +9,7 @@
             ],
             [
                 {
-                    "name": "quantityRequired"
+                    "name": "requiredQuantity"
                 },
                 {
                     "name": "salePrice"

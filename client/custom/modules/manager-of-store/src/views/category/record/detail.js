@@ -5,24 +5,17 @@ define('manager-of-store:views/category/record/detail', ['views/record/detail'],
 
         setup: function () {
             Dep.prototype.setup.call(this);
-          // let totalPrice = this.getMetadata().get(['entityDefs', 'category', 'fields', 'totalPrice']);
-            console.log('ssssss');
-        },
+            this.model.on('change:requiredQuantity', this.afterRender, this);
+            },
+        afterRender: function () {
+            Dep.prototype.afterRender.call(this);
+            if(this.model.get('requiredQuantity') && this.model.get('salePrice')){
+                this.model.set('totalPrice', this.model.get('requiredQuantity') * this.model.get('salePrice'));
+                this.model.set('totalQuantity', this.model.get('totalQuantity') - this.model.get('requiredQuantity'));
+                this.model.save({totalQuantity: this.model.get('totalQuantity')},{patch: true});
+                this.model.save({totalPrice: this.model.get('totalPrice')},{patch: true});
+            }
 
-        // manageAccessEdit: function (second) {
-        //     Dep.prototype.manageAccessEdit.call(this, second);
-        //
-        //     if (second) {
-        //         if (!this.getAcl().checkModel(this.model, 'edit', true)) {
-        //             this.hideActionItem('setCompleted');
-        //         }
-        //     }
-        // },
-        //
-        // actionSetCompleted: function () {
-        //     this.model.save({status: 'Completed'}, {patch: true})
-        //         .then(() => Espo.Ui.success(this.translate('Saved')));
-        //
-        // },
+        }
     });
 });

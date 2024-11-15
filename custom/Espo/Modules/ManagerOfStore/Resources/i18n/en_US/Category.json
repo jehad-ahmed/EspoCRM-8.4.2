@@ -5,7 +5,7 @@
         "salePrice": "Sale Price",
         "purchasePrice": "Purchase Price",
         "totalQuantity": "Total Quantity",
-        "quantityRequired": "Quantity Required"
+        "requiredQuantity": "Required Quantity"
     },
     "links": {
         "product": "Product"

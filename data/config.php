@@ -1,6 +1,6 @@
 <?php
 return [
-  'useCache' => true,
+  'useCache' => false,
   'jobMaxPortion' => 15,
   'jobRunInParallel' => false,
   'jobPoolConcurrencyNumber' => 8,
@@ -311,8 +311,8 @@ return [
   'authIpAddressWhitelist' => [],
   'authIpAddressCheckExcludedUsersIds' => [],
   'authIpAddressCheckExcludedUsersNames' => (object) [],
-  'cacheTimestamp' => 1731404196,
-  'microtime' => 1731404196.48974609375,
+  'cacheTimestamp' => 1731583672,
+  'microtime' => 1731583672.52147388458251953125,
   'siteUrl' => 'http://localhost/EspoCRM-8.4.2',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1730118130,
@@ -320,5 +320,13 @@ return [
   'avatarsDisabled' => false,
   'scopeColorsDisabled' => false,
   'tabIconsDisabled' => false,
-  'dashletsOptions' => (object) []
+  'dashletsOptions' => (object) [],
+  'maintenanceMode' => false,
+  'cronDisabled' => false,
+  'fiscalYearShift' => 0,
+  'addressCityList' => [],
+  'addressStateList' => [],
+  'emailAddressIsOptedOutByDefault' => false,
+  'workingTimeCalendarName' => NULL,
+  'workingTimeCalendarId' => NULL
 ];

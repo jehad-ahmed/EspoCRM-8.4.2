@@ -1,0 +1,1 @@
+[2024-11-14 10:17:10] CRITICAL: (42S22) SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category.required_quantity' in 'field list' :: GET /Category/6724bbde59091c3ae :: C:\MAMP\htdocs\EspoCRM-8.4.2\application\Espo\ORM\Executor\DefaultSqlExecutor.php(77)
