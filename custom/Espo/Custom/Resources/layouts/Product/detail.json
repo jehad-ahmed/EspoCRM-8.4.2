@@ -4,24 +4,34 @@
             [
                 {
                     "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "requiredQuantity"
                 },
-                false
+                {
+                    "name": "salePrice"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "totalPrice"
+                }
+            ],
+            [
+                {
+                    "name": "purchasePrice"
+                },
+                {
+                    "name": "totalQuantity"
+                }
             ]
         ],
         "style": "default",
         "label": "Overview"
-    },
-    {
-        "rows": [
-            [
-                {
-                    "name": "categories"
-                },
-                false
-            ]
-        ],
-        "style": "default",
-        "noteStyle": "info",
-        "label": ""
     }
 ]

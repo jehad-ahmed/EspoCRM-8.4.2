@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "Category": "Category",
+        "Product": "Product"
+    },
+    "scopeNamesPlural": {
+        "Category": "Categories",
+        "Product": "Products"
+    }
+}

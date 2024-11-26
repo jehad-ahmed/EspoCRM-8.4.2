@@ -82,8 +82,8 @@ return [
       'text' => '$Marketing',
       'id' => '463280'
     ],
-    17 => 'Product',
-    18 => 'Category',
+    17 => 'Category',
+    18 => 'Product',
     19 => 'Campaign',
     20 => 'TargetList',
     21 => (object) [
@@ -311,8 +311,8 @@ return [
   'authIpAddressWhitelist' => [],
   'authIpAddressCheckExcludedUsersIds' => [],
   'authIpAddressCheckExcludedUsersNames' => (object) [],
-  'cacheTimestamp' => 1731583672,
-  'microtime' => 1731583672.52147388458251953125,
+  'cacheTimestamp' => 1732603353,
+  'microtime' => 1732603353.4577710628509521484375,
   'siteUrl' => 'http://localhost/EspoCRM-8.4.2',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1730118130,
