@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "category": "Category",
+        "totalPrice": "Total Price",
+        "salePrice": "Sale Price",
+        "purchasePrice": "Purchase Price",
+        "totalQuantity": "Total Quantity",
+        "requiredQuantity": "Required Quantity"
+    },
+    "links": {
+        "category": "Category"
+    },
+    "labels": {
+        "Create Product": "Create Product"
+    }
+}

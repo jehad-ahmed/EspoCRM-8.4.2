@@ -1,0 +1,16 @@
+{
+    "controller": "controllers/record",
+    "recordViews": {
+        "detail": "my-sales:views/product/record/detail"
+    },
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-object-group",
+    "relationshipPanels": {
+        "category": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}
